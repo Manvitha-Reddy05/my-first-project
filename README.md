@@ -8,17 +8,6 @@ A beginner-friendly CLI calculator with add, subtract, multiply, and divide.
 python3 app.py
 ```
 
-## Project structure
-```text
-python-calculator/
-├── app.py              # CLI app
-├── calculator.py       # Core functions
-├── tests/
-│   └── test_calculator.py
-├── .github/workflows/python-tests.yml  # Optional CI
-└── .gitignore
-```
-
 ## Tests
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py" -v
